@@ -1,0 +1,217 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Title -->
+    <title>Our Templates</title>
+ <!-- Favicon -->
+ <link rel="icon" href=" {% static 'img/icons/resume.png' %} " />
+
+ <!-- Core Stylesheet -->
+ <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/about-sonar.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/animate.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/classy-nav.min.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/dzsparallaxer.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/magnific-popup.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/owl.carousel.min.css' %}" />
+
+ <link rel="stylesheet" href="{% static 'css/themify-icons.css' %}" />
+
+ <link rel="stylesheet" href="/static/css/footer.css">
+
+ <!-- Responsive Stylesheet -->
+ <link rel="stylesheet" href="{% static 'css/responsive.css' %}" />
+
+  </head>
+
+  <body class="light-version">
+ 
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+      <div class="classy-nav-container dark breakpoint-off">
+        <div class="container">
+          <!-- Classy Menu -->
+          <nav class="classy-navbar justify-content-between" id="dreamNav">
+            <!-- Logo -->
+            <a class="nav-brand" href="{% url 'index' %}"><img src="{% static 'img/icons/resume1.png' %}" alt="logo" height="40px" width="40px" /> Resume Creator.</a>
+
+            <!-- Navbar Toggler -->
+            <div class="classy-navbar-toggler">
+              <span class="navbarToggler"
+                ><span></span><span></span><span></span
+              ></span>
+            </div>
+
+            <!-- Menu -->
+            <div class="classy-menu">
+              <!-- close btn -->
+              <div class="classycloseIcon">
+                <div class="cross-wrap">
+                  <span class="top"></span><span class="bottom"></span>
+                </div>
+              </div>
+
+              <!-- Nav Start -->
+              <div class="classynav">
+                <ul id="nav" >
+                  <li><a href="{% url 'index' %}">Home</a></li>
+                  <li><a href="{% url 'about' %}">About Us</a></li>
+                  <li><a href="{% url 'pricing' %}">Pricing</a></li>
+                  <li><a href="{% url 'templates' %}">Templates</a></li>
+                  <li><a href="{% url 'contact' %}">Contact</a></li>
+                </ul>
+              <!-- Nav End -->
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- ##### Header ENDS Start ##### -->
+
+    <section class="demo section-padding-100-0">
+      <div class="container">
+        <div class="section-heading text-center">
+          <div class="dream-dots justify-content-center">
+            <span></span><span></span><span></span><span></span><span></span
+            ><span></span><span></span>
+          </div>
+          <h2 class="bold">Our Creative Templates</h2>
+          <p>
+            Each resume template is expertly designed and follows the exact “resume rules” hiring managers look for. Stand out and get hired faster with field-tested resume templates.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="demo-item">
+              <a href=""><img
+                  src="/static/img/demos/demo-1.jpg"
+                  alt="demo"
+                  class="img-responsive"
+              /></a>
+              <div class="preview-btn-wrapper text-center">
+                <a href=" {% url 'templatesedit' %}" class="preview-demo ">Use template</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="demo-item">
+              <a href=""
+                ><img
+                  src="/static/img/demos/demo-2.jpg"
+                  alt="demo"
+                  class="img-responsive"
+              /></a>
+              <div class="preview-btn-wrapper text-center">
+                <a href=" {% url 'templatesedit2' %}" class="preview-demo"
+                  >Use template </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="demo-item">
+              <a href=""
+                ><img
+                  src="/static/img/demos/demo-3.jpg"
+                  alt="demo"
+                  class="img-responsive"
+              /></a>
+              <div class="preview-btn-wrapper text-center">
+                <a href="{% url 'templatesedit3' %}" class="preview-demo "
+                  >Use template</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer">
+   
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <div class="row-md-3  mt-3">
+            <p><img src="/static/img/icons/resume1.png" alt="" height="100px" width="100px"   ></p><br>
+           </div>
+           <div class="row-md-3">
+            <h4 ><a href="{% url 'index' %}">Resume Creator</a></h4>
+          </div>
+          </div>
+          <div class="footer-col  mt-1">
+            <h4 class="row-md-3  mt-3" >Quick Links</h4>
+            <ul>
+              <li><a href="{% url 'faq' %}">FAQ</a></li>
+              <li><a href="{% url 'about' %}">about us</a></li>
+              <li><a href="{% url 'templates' %}">Templates</a></li>
+          </div>
+          <div class="footer-col  mt-1">
+            <h4 class="row-md-3  mt-3" >Get in Touch</h4>
+            <ul>
+              <li><a href="{% url 'contact' %}">Contact</a></li>
+            </ul>
+            </div>  
+          <div class="footer-col  mt-2">
+            <h4 class="mt-2" >follow us</h4>
+            <div class="social-links">
+              <a href="https://www.facebook.com/"><ion-icon name="logo-facebook"></ion-icon></a>
+              <a href="https://twitter.com/"><ion-icon name="logo-twitter"></ion-icon></a>
+              <a href="https://github.com/"><ion-icon name="logo-github"></ion-icon></a>
+              <a href="https://www.linkedin.com/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+          </div>
+        </div>
+       
+      </div>
+      <div> 
+        <p style="border-top: 1px solid white;" ><hr></p>
+        <center>
+           <p>©CODEWARRIORS</p>
+        </center>
+       
+      </div>
+   </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- ########## All JS ########## -->
+     <!-- jQuery js -->
+     <script src="{% static 'js/jquery.min.js' %} "></script>
+     <!-- Popper js -->
+     <script src="{% static 'js/popper.min.js' %} "></script>
+     <!-- Bootstrap js -->
+     <script src="{% static 'js/bootstrap.min.js' %} "></script>
+     <!-- All Plugins js -->
+     <script src="{% static 'js/plugins.js' %} "></script>
+     <script src="{% static 'js/particles.js' %} "></script>
+     <script src="{% static 'js/app.js' %}"></script>
+     <!-- Parallax js -->
+     <script src="{% static 'js/dzsparallaxer.js' %} "></script>
+     <script src="{% static 'js/jquery.syotimer.min.js' %} "></script>
+     <!-- script js -->
+     <script src=" {% static 'js/script.js' %} "></script>
+     <script  src=" {% static 'onlineResumeCreator/static/js/login.js' %} "></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>

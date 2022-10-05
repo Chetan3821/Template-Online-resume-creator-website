@@ -1,0 +1,26 @@
+#resume-template{
+    display: none;
+}
+.myimg{
+    border: 1px solid cyan;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.background{
+    background-color: #323B4C;
+    color: white;
+}
+
+hr{
+    height: 4px;
+    background-color:  white ;
+    border: solid white ;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
